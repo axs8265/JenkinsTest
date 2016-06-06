@@ -13,6 +13,8 @@ def hello_world():
 
 @app.route('/<string:input_list>/orderdaytovendor', methods = ['GET'])
 def order_day_to_vendor(input_list):
+"""
+"""
 	# Split the comma seperated string values into a list 
 	input_list = input_list.split(',')
 	# Convert the string list into int list
