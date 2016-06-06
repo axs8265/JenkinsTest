@@ -1,5 +1,8 @@
 
 def calculate_order_day_to_vendor(input_list):
+"""
+This method counts the number of days from the day order was sent to the vendor 
+"""
     sample = [0,0,1,0,0,0,1]
     index = 0
     day_count = 0
