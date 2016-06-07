@@ -1,1 +1,1 @@
-web gunicorn pythontestmicroservice.wsgi --log-file -
+	web: gunicorn pythontestmicroservice:app
