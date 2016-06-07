@@ -15,8 +15,9 @@ def hello_world():
 def order_day_to_vendor(input_list):
 """
 Web method Order to day
+rtype: string
 """
-	# Split the comma seperated string values into a list 
+	# Split the comma separated string values into a list 
 	input_list = input_list.split(',')
 	# Convert the string list into int list
 	input_list = [int(i) for i in input_list]
