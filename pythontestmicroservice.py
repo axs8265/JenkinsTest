@@ -1,7 +1,6 @@
 import json
 import os
 from flask import Flask, jsonify, make_response, request
-
 import orderDayToVendor as odv
 
 app = Flask(__name__)
@@ -12,16 +11,16 @@ def hello_world():
 
 @app.route('/<string:input_list>/orderdaytovendor', methods = ['GET'])
 def order_day_to_vendor(input_list):
-"""
-Web method Order to day
-return: Update list
-type: string
-"""
-	# Split the comma separated string values into a list 
-	input_list = input_list.split(',')
-	# Convert the string list into int list
-	input_list = [int(i) for i in input_list]
-	return str(odv.calculate_order_day_to_vendor(input_list))
+  """
+  Web method Order to day
+  return: Update list
+  type: string
+  """
+  # Split the comma separated string values into a list
+  input_list = input_list.split(',')
+  # Convert the string list into int list
+  input_list = [int(i) for i in input_list]
+  return str(odv.calculate_order_day_to_vendor(input_list))
 
 if __name__ == '__main__':
   app.debug = True
