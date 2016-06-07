@@ -1,0 +1,7 @@
+setup.py
+py_micro_service.egg-info/PKG-INFO
+py_micro_service.egg-info/SOURCES.txt
+py_micro_service.egg-info/dependency_links.txt
+py_micro_service.egg-info/not-zip-safe
+py_micro_service.egg-info/requires.txt
+py_micro_service.egg-info/top_level.txt
