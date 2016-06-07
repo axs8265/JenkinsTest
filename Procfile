@@ -1,1 +1,1 @@
-	web: gunicorn pythontestmicroservice:app
+web: python pythontestmicroservice.py
