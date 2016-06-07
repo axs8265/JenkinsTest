@@ -15,7 +15,8 @@ def hello_world():
 def order_day_to_vendor(input_list):
 """
 Web method Order to day
-rtype: string
+return: Update list
+type: string
 """
 	# Split the comma separated string values into a list 
 	input_list = input_list.split(',')
